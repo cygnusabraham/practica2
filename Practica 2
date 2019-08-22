@@ -1,2 +1,502 @@
 Galicia de la Rosa Erick Abraham
 317171208
+Last login: Tue Aug 20 17:56:47 on ttys000
+Peru34:~ alumno$ mkdir practica2
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ clean
+-bash: clean: command not found
+Peru34:~ alumno$ clearn
+-bash: clearn: command not found
+Peru34:~ alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:~ alumno$ eco "hola"
+-bash: eco: command not found
+Peru34:~ alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ cd practica2
+Peru34:practica2 alumno$ mkdir Fundamentos
+Peru34:practica2 alumno$ mkdir Fisica
+Peru34:practica2 alumno$ mkdir Quimica
+Peru34:practica2 alumno$ mkdir Calculo y Geometria
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ cd calculo
+Peru34:calculo alumno$ ls
+Peru34:calculo alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:calculo alumno$ cd ..
+Peru34:practica2 alumno$ cd ..
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ cd practica2
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ cd quimica
+Peru34:quimica alumno$ mkdir archivo.txt
+Peru34:quimica alumno$ lk
+-bash: lk: command not found
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:quimica alumno$ echo "Galicia de la Rosa Erickj Abraham" >> archivo.txt
+-bash: archivo.txt: Is a directory
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ cat archivo.txt
+cat: archivo.txt: Is a directory
+Peru34:quimica alumno$  cp ..
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+Peru34:quimica alumno$ cd ..
+Peru34:practica2 alumno$ cd ..
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ cd practica2
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ cd ..
+Peru34:~ alumno$ cd ..
+Peru34:Users alumno$ ls
+Shared		administrador	alumno		curso
+Peru34:Users alumno$ cd alumno
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures
+Downloads	Music		practica2
+Peru34:~ alumno$ mkdir archivo.txt
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures	practica2
+Downloads	Music		archivo.txt
+Peru34:~ alumno$ cd practica2
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ find . -name archivo.txt
+./Quimica/archivo.txt
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ cd quimica
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ cd archivo.txt
+Peru34:archivo.txt alumno$ ls
+Peru34:archivo.txt alumno$ clear
+
+
+Peru34:archivo.txt alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:archivo.txt alumno$ ls
+Peru34:archivo.txt alumno$  cd ..
+Peru34:quimica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Calculo		Fundamentos	Quimica
+Fisica		Geometria	y
+Peru34:practica2 alumno$ rm calculo
+rm: calculo: is a directory
+Peru34:practica2 alumno$ rm -d calculo
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		y
+Peru34:practica2 alumno$ rm -d y
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica
+Peru34:practica2 alumno$ mkdir Tutoria
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:practica2 alumno$ cd quimica
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ echo "Hola" >> archivo.txt
+-bash: archivo.txt: Is a directory
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ cd quimica
+Peru34:quimica alumno$ ls
+archivo.txt
+Peru34:quimica alumno$ cd Quimica
+-bash: cd: Quimica: No such file or directory
+Peru34:quimica alumno$  cd ..
+Peru34:practica2 alumno$ cd ..
+Peru34:~ alumno$ ls
+Desktop		Library		Pictures	practica2
+Downloads	Music		archivo.txt
+Peru34:~ alumno$  cd practica2
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ cd Quimica
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ echo "Putos" >> archivo.txt/
+-bash: archivo.txt/: Is a directory
+Peru34:Quimica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ cd Quimica
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ rm -d  archivo.txt
+Peru34:Quimica alumno$ ls
+Peru34:Quimica alumno$ cd ..
+Peru34:practica2 alumno$ clear
+
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ cd Quimkica
+-bash: cd: Quimkica: No such file or directory
+Peru34:practica2 alumno$ cd Quimica
+Peru34:Quimica alumno$ ls
+Peru34:Quimica alumno$ touch archivo.txt
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ echo "Hola mundo" >> archivo.txt 
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ cat archivo.txt
+Hola mundo
+Peru34:Quimica alumno$  cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ cd Quimica
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Fundamentos	Geometria	Quimica		Tutoria
+Peru34:practica2 alumno$ mkdir algebra
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd algebra
+Peru34:algebra alumno$ touch archivo.txt
+Peru34:algebra alumno$ ls
+archivo.txt
+Peru34:algebra alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:algebra alumno$ ls
+archivo.txt
+Peru34:algebra alumno$ echo "317171208" >> archivo.txt 
+Peru34:algebra alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:algebra alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd Fisica
+Peru34:Fisica alumno$ ls
+Peru34:Fisica alumno$ touch archivo.txt
+Peru34:Fisica alumno$ ls
+archivo.txt
+Peru34:Fisica alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:Fisica alumno$ echo "317171208" >> archivo.txt 
+Peru34:Fisica alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:Fisica alumno$ cd ..
+Peru34:practica2 alumno$ cd Quimica
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ cat archivo.txt
+Hola mundo
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:Quimica alumno$ echo "317171208" >> archivo.txt 
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ cat archivo.txt
+Hola mundo
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ clear
+
+Peru34:Quimica alumno$ ls
+archivo.txt
+Peru34:Quimica alumno$ cat archivo.txt
+Hola mundo
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:Quimica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd Geometria
+Peru34:Geometria alumno$ ls
+Peru34:Geometria alumno$ cd ls
+-bash: cd: ls: No such file or directory
+Peru34:Geometria alumno$ ls
+Peru34:Geometria alumno$ touch archivo.txt
+Peru34:Geometria alumno$ ls
+archivo.txt
+Peru34:Geometria alumno$ ls
+archivo.txt
+Peru34:Geometria alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:Geometria alumno$ echo "317171208" >> archivo.txt 
+Peru34:Geometria alumno$ ls
+archivo.txt
+Peru34:Geometria alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:Geometria alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd tutoria
+Peru34:tutoria alumno$ ls
+Peru34:tutoria alumno$ touch archivo.txt
+Peru34:tutoria alumno$ ls
+archivo.txt
+Peru34:tutoria alumno$ ls
+archivo.txt
+Peru34:tutoria alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:tutoria alumno$ echo "317171208" >> archivo.txt 
+Peru34:tutoria alumno$ ls
+archivo.txt
+Peru34:tutoria alumno$ cat archuvo.txt
+cat: archuvo.txt: No such file or directory
+Peru34:tutoria alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:tutoria alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd Fundamentos
+Peru34:Fundamentos alumno$ ls
+Peru34:Fundamentos alumno$ touch archivo.txt
+Peru34:Fundamentos alumno$ ls
+archivo.txt
+Peru34:Fundamentos alumno$ echo "Galicia de la Rosa Erick Abraham" >> archivo.txt 
+Peru34:Fundamentos alumno$ echo "317171208" >> archivo.txt 
+Peru34:Fundamentos alumno$ ls
+archivo.txt
+Peru34:Fundamentos alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:Fundamentos alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ cd fisica
+Peru34:fisica alumno$ ls
+archivo.txt
+Peru34:fisica alumno$ cat archivo.txt
+Galicia de la Rosa Erick Abraham
+317171208
+Peru34:fisica alumno$ cd ..
+Peru34:practica2 alumno$ ls
+Fisica		Geometria	Tutoria
+Fundamentos	Quimica		algebra
+Peru34:practica2 alumno$ 
+
+
